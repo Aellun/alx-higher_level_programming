@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 # 2-print_alphabet.py
 
 """Prints  alphabet in lowercase"""
