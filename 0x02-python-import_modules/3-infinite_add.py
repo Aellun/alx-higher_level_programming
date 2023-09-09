@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """Print the number of arg and list of arg."""
+    """return the arg addition."""
     import sys
 
 total = 0

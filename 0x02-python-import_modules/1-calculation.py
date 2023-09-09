@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    """carrys out the addition multiplication quotient and difference of a and b"""
+    """carrys out the addition mult_ quotient and minus of a and b"""
     from calculator_1 import add, sub, mul, div
 
     a = 10
