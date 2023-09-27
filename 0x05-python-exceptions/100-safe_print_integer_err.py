@@ -13,7 +13,7 @@ def safe_print_integer_err(value):
     try:
         print("{:d}".format(int(value)))
         return True
-    except (ValueError, ValueError) as e:
+    except (TypeError, ValueError) as e:
 
         print(f"Exception: {e}", file=sys.stderr)
         return False
