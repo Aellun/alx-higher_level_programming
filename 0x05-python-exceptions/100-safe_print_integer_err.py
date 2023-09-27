@@ -1,14 +1,14 @@
 #!/usr/bin/python3
 import sys
 
-def safe_print_integer_err(value):
-    """Prints an integer and returns True if value is an integer, else False.
 
+def safe_print_integer_err(value):
+    """Prints an int with "{:d}".format()or prints an err msg to stder
     Args:
         value: Any value (integer, string, etc.).
 
     Returns:
-        bool: True if value is an integer and successfully printed, False otherwise.
+        bool: True if value is an integer and false if otherwise.
     """
     try:
         print("{:d}".format(int(value)))
