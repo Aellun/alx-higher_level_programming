@@ -11,7 +11,7 @@ class Square:
         """Initializes an instance of a new Square.
 
         Args:
-            size (int):New square size.
+            size (int): New square size.
         """
         self.size = size
 
@@ -22,13 +22,14 @@ class Square:
 
     @size.setter
     def size(self, value):
-    """set the size of the square
+        """Set the size of the square.
+
         Args:
-            value (int): The new size of the square. (a non-negative int.)
+            value (int): The new size of the square (a non-negative int).
         Raises:
             TypeError: If the value is not an int.
             ValueError: If value < 0.
-    """
+        """
 
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -38,4 +39,4 @@ class Square:
 
     def area(self):
         """int: Return the current area of the square."""
-        return (self.__size * self.__size)
+        return self.__size * self.__size
