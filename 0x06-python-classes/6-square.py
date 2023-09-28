@@ -46,7 +46,7 @@ class Square:
         """Set the position of the square.
 
         Args:
-            value (tuple): Representing the new square position (two positive ints).
+            value (tuple): Rep the new square pstn (2 +ve ints).
         Raises:
             TypeError: If 'value' is not a tuple of 2 positive ints.
         """
@@ -62,7 +62,7 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Prints the square with the # character based on its position and size.
+        """Prints the square with the # char based on its pstn and size.
         Returns: None and if size = 0 prints an empty line.
         """
         if self.__size == 0:
