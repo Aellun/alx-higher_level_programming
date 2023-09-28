@@ -46,7 +46,7 @@ class Square:
         return: None"""
     for item in range(0, self.__size):
         [print("#", end="") for j in range(self.__size)]
-            print("")
+        print("")
             """If the size is 0, print an empty line"""
         if self.__size == 0:
             print("")
