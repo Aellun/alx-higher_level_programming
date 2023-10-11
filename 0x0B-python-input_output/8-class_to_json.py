@@ -1,4 +1,4 @@
-vi #!/usr/bin/python3
+#!/usr/bin/python3
 """this function examine dict description."""
 
 
