@@ -1,17 +1,14 @@
 #!/usr/bin/python3
-"""This module reads from stdin and computes metrics.
-
-At keyboard interruption (CTRL + C):
-    Total file size up to that point.
-    Count of read status up to that point.
-"""
+"""This module reads from stdin and computes metrics
+    prints the cumulated metrics
+after every 10 lines or on keyboard interruption (CTRL + C)."""
 
 
 def print_stats(size, status_codes):
-    """Prints cumulated metrics.
+    """Prints the cumulated metrics.
 
     Args:
-        size: The cumulated read file size(int)
+        size (int):cumulated read file size.
         status_codes (dict): The cumulated count of status codes.
     """
     print("File size: {}".format(size))
@@ -51,8 +48,12 @@ if __name__ == "__main__":
             except IndexError:
                 pass
 
-        print_stats(size, status_codes)"""final stats"""
+        """ the final stats being printed"""
+        print_stats(size, status_codes)
 
     except KeyboardInterrupt:
-        print_stats(size, status_codes)"""the stat when user interrupts"""
+        """ Prints a msg to the user that the program has been interrupted"""
+        print("Program interrupted by user.")
+        """Print the stats when the user interrupts the program"""
+        print_stats(size, status_codes)
         raise
