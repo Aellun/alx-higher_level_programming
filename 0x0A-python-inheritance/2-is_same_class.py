@@ -2,7 +2,7 @@
 """This module Defines a class and inherited class_checking function."""
 
 
-def is_kind_of_class(obj, a_class):
+def is_same_class(obj, a_class):
     """Checks if an object is an instance or inherited instance of a class.
 
     Args:

@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-"""this module establish an inherited class_checking function."""
+"""This module examine a class and inherited class function."""
 
 
-def inherits_from(obj, a_class):
-    """examines if an object is an inherited instance of a class.
+def is_kind_of_class(obj, a_class):
+    """Checks if an object is an instance or inherited instance of a class.
 
     Args:
-        obj (any): The object being checked
-        a_class (type): The class to match the type of obj to.
-    Returns:True If obj is an inherited instance of a_class
+        obj: the object being checked
+        a_class (type):class being matched to an object
+    Returns:
+    True- if an object is an inherited class of the object
         Otherwise - False.
     """
     if isinstance(obj, a_class):
