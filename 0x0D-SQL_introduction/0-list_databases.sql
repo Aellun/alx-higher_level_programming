@@ -1,2 +1,2 @@
---the sql code below lists all database of my sql server
+-- Lists all databases of MySQL serve
 SHOW DATABASES;
