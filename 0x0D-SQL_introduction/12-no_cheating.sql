@@ -1,5 +1,5 @@
--- updates the score of Bob to 10 in the table second_table
---using only name field
-UPDATE second_table
-SET score = 10
-WHERE name = 'Bob';
+-- Updates the score of Bob to 10 in the table second_table
+-- Using only name field
+UPDATE `second_table`
+SET `score` = 10
+WHERE `name` = "Bob";
