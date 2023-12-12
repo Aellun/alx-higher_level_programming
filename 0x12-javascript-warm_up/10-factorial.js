@@ -1,6 +1,7 @@
 #!/usr/bin/node
 /* script that computes and prints a factorial
     Factorial of NaN is 1 */
+
 function factorial (n) {
   if (n < 0) {
     return (-1);
