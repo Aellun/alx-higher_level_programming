@@ -7,4 +7,3 @@ A new list must be created with each value equal to the value of the initial lis
 const list = require('./100-data.js').list;
 console.log(list);
 console.log(list.map((item, index) => item * index));
-
