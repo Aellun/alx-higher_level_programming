@@ -5,7 +5,7 @@ and lists all cities of that state,
  Args:
     mysql username
     mysql password
-    database name 
+    database name
     state name"""
 import MySQLdb
 import sys
