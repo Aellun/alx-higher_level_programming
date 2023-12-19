@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ script that lists all City objects from the database hbtn_0e_101_usa
-use the state relationship to access to the State object linked to the City object
+use the state relationship to access to the State object
+linked to the City object
 
 Args:
     mysql username
