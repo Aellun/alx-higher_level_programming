@@ -1,22 +1,24 @@
 #!/usr/bin/python3
 """
-Contains the class definition of a City:
-city class:
+Contains State class and Base, an instance of declarative_base()
+State class:
             inherits from base
-            links table cities
-            id is auto generated and not null
-            name is 128 char and not null
-            state_id ForeignKey and not null
-module: sqlAlchemy
+            link to state tables
+            id is auto generated and not nullable
+            name is 128  chars and not null
+module: sqlalchemy
 """
-from model_state import Base
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String, MetaData
 from sqlalchemy.ext.declarative import declarative_base
 
+mymetadata = MetaData()
+Base = declarative_base(metadata=mymetadata)
 
-class City(Base):
-    
-    __tablename__ = 'cities'
+
+class State(Base):
+    """
+    Class with id and name attributes of each state
+    """
+    __tablename__ = 'states'
     id = Column(Integer, unique=True, nullable=False, primary_key=True)
     name = Column(String(128), nullable=False)
-    state_id = Column(Integer, ForeignKey("states.id"), nullable=False)
