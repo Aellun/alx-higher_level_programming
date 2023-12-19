@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" a script that lists all State objects, and corresponding City objects, contained in the database hbtn_0e_101_usa
+""" a script that lists all State objects, and corresponding City objects,
+contained in the database hbtn_0e_101_usa
 use the cities relationship for all State objects
 Args:
     mysql username
