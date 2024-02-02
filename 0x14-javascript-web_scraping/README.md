@@ -1,11 +1,11 @@
-## Project Name : 0x14. JavaScript - Web scraping
+# Project Name : 0x14. JavaScript - Web scraping
 
 # Project Description:
-    key topics
-        [Working with JSON data](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
-        [The workflow of accessing the attributes of a simply-created JSON object](https://medium.com/@vietkieutie/the-workflow-of-accessing-the-attributes-of-a-simply-created-json-object-82a5b33e2319)
-        [request module](https://github.com/request/request)
-        [Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
+   #  key topics
+[Working with JSON data](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
+[The workflow of accessing the attributes of a simply-created JSON object](https://medium.com/@vietkieutie/the-workflow-of-accessing-the-attributes-of-a-simply-created-json-object-82a5b33e2319)
+[request module](https://github.com/request/request)
+[Modern JS](https://github.com/mbeaudru/modern-js-cheatsheet)
 
 Install semi-standard
 [Documentation](https://github.com/request/request)
@@ -16,7 +16,7 @@ request modules
     $ sudo npm install request --global
     $ export NODE_PATH=/usr/lib/node_modules
 
-                ## tasks
+                # TASKS
 
 0-readme.js--Write a script that reads and prints the content of a file.
     The first argument is the file path
