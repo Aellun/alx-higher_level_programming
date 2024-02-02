@@ -24,4 +24,3 @@ request.get(url, (error, res, body) => {
     });
   });
 });
-
